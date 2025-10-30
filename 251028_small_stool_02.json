@@ -1,0 +1,237 @@
+{
+  "objectName": "a small stool",
+  "parts": [
+    {
+      "id": "seat_surface",
+      "origin": {
+        "x": 0,
+        "y": 0.46,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.4,
+        "height": 0.02,
+        "depth": 0.4
+      },
+      "connections": [
+        "leg_front_right",
+        "leg_front_left",
+        "leg_back_right",
+        "leg_back_left"
+      ],
+      "color": "#DEB887"
+    },
+    {
+      "id": "leg_front_right",
+      "origin": {
+        "x": 0.15,
+        "y": 0.225,
+        "z": -0.15
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.45,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface",
+        "brace_front",
+        "brace_right"
+      ],
+      "color": "#8B4513"
+    },
+    {
+      "id": "leg_front_left",
+      "origin": {
+        "x": -0.15,
+        "y": 0.225,
+        "z": -0.15
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.45,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface",
+        "brace_front",
+        "brace_left"
+      ],
+      "color": "#8B4513"
+    },
+    {
+      "id": "leg_back_right",
+      "origin": {
+        "x": 0.15,
+        "y": 0.225,
+        "z": 0.15
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.45,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface",
+        "brace_back",
+        "brace_right"
+      ],
+      "color": "#8B4513"
+    },
+    {
+      "id": "leg_back_left",
+      "origin": {
+        "x": -0.15,
+        "y": 0.225,
+        "z": 0.15
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.45,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface",
+        "brace_back",
+        "brace_left"
+      ],
+      "color": "#8B4513"
+    },
+    {
+      "id": "brace_front",
+      "origin": {
+        "x": 0,
+        "y": 0.225,
+        "z": -0.15
+      },
+      "dimensions": {
+        "width": 0.3,
+        "height": 0.02,
+        "depth": 0.02
+      },
+      "connections": [
+        "leg_front_right",
+        "leg_front_left"
+      ],
+      "color": "#8B4513"
+    },
+    {
+      "id": "brace_back",
+      "origin": {
+        "x": 0,
+        "y": 0.225,
+        "z": 0.15
+      },
+      "dimensions": {
+        "width": 0.3,
+        "height": 0.02,
+        "depth": 0.02
+      },
+      "connections": [
+        "leg_back_right",
+        "leg_back_left"
+      ],
+      "color": "#8B4513"
+    },
+    {
+      "id": "brace_right",
+      "origin": {
+        "x": 0.15,
+        "y": 0.225,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.02,
+        "depth": 0.3
+      },
+      "connections": [
+        "leg_front_right",
+        "leg_back_right"
+      ],
+      "color": "#8B4513"
+    },
+    {
+      "id": "brace_left",
+      "origin": {
+        "x": -0.15,
+        "y": 0.225,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.02,
+        "depth": 0.3
+      },
+      "connections": [
+        "leg_front_left",
+        "leg_back_left"
+      ],
+      "color": "#8B4513"
+    },
+    {
+      "id": "original_board_offcut_1",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.5,
+        "height": 0.02,
+        "depth": 0.6
+      },
+      "connections": [],
+      "color": "#A9A9A9",
+      "status": "discarded"
+    },
+    {
+      "id": "original_board_offcut_2",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.1,
+        "height": 0.02,
+        "depth": 0.4
+      },
+      "connections": [],
+      "color": "#A9A9A9",
+      "status": "discarded"
+    },
+    {
+      "id": "leg_dowel_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.2,
+        "depth": 0.04
+      },
+      "connections": [],
+      "color": "#A9A9A9",
+      "status": "discarded"
+    },
+    {
+      "id": "brace_dowel_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.8,
+        "depth": 0.02
+      },
+      "connections": [],
+      "color": "#A9A9A9",
+      "status": "discarded"
+    }
+  ]
+}

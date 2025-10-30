@@ -1,0 +1,165 @@
+{
+  "objectName": "small stool",
+  "parts": [
+    {
+      "id": "seat_surface",
+      "origin": {
+        "x": 0,
+        "y": 0.46,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.5,
+        "height": 0.02,
+        "depth": 0.5
+      },
+      "connections": [
+        "leg_front",
+        "leg_back_left",
+        "leg_back_right"
+      ]
+    },
+    {
+      "id": "leg_front",
+      "origin": {
+        "x": 0,
+        "y": 0.225,
+        "z": 0.205
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 0.45,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface"
+      ]
+    },
+    {
+      "id": "leg_back_left",
+      "origin": {
+        "x": -0.2,
+        "y": 0.225,
+        "z": -0.205
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 0.45,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface",
+        "rear_brace"
+      ]
+    },
+    {
+      "id": "leg_back_right",
+      "origin": {
+        "x": 0.2,
+        "y": 0.225,
+        "z": -0.205
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 0.45,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface",
+        "rear_brace"
+      ]
+    },
+    {
+      "id": "rear_brace",
+      "origin": {
+        "x": 0,
+        "y": 0.225,
+        "z": -0.205
+      },
+      "dimensions": {
+        "width": 0.4,
+        "height": 0.02,
+        "depth": 0.03
+      },
+      "connections": [
+        "leg_back_left",
+        "leg_back_right"
+      ]
+    },
+    {
+      "id": "leg_front_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 1.55,
+        "depth": 0.04
+      },
+      "connections": [],
+      "status": "discarded"
+    },
+    {
+      "id": "leg_back_left_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 1.55,
+        "depth": 0.04
+      },
+      "connections": [],
+      "status": "discarded"
+    },
+    {
+      "id": "leg_back_right_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 1.55,
+        "depth": 0.04
+      },
+      "connections": [],
+      "status": "discarded"
+    },
+    {
+      "id": "rear_brace_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 1.6,
+        "depth": 0.03
+      },
+      "connections": [],
+      "status": "discarded"
+    },
+    {
+      "id": "seat_surface_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.5,
+        "height": 0.02,
+        "depth": 1.5
+      },
+      "connections": [],
+      "status": "discarded"
+    }
+  ]
+}

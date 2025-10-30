@@ -1,0 +1,221 @@
+{
+  "objectName": "rietveld stool",
+  "parts": [
+    {
+      "id": "seat_surface",
+      "origin": {
+        "x": 0,
+        "y": 0.44,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.3,
+        "height": 0.02,
+        "depth": 0.3
+      },
+      "connections": [
+        "leg_front_right",
+        "leg_front_left",
+        "leg_back_left",
+        "leg_back_right"
+      ],
+      "color": "#FF0000"
+    },
+    {
+      "id": "leg_front_right",
+      "origin": {
+        "x": 0.125,
+        "y": 0.225,
+        "z": -0.125
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 0.45,
+        "depth": 0.05
+      },
+      "connections": [
+        "seat_surface",
+        "brace_front",
+        "brace_right"
+      ],
+      "color": "#0000FF"
+    },
+    {
+      "id": "leg_front_left",
+      "origin": {
+        "x": -0.125,
+        "y": 0.225,
+        "z": -0.125
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 0.45,
+        "depth": 0.05
+      },
+      "connections": [
+        "seat_surface",
+        "brace_front",
+        "brace_left"
+      ],
+      "color": "#0000FF"
+    },
+    {
+      "id": "leg_back_left",
+      "origin": {
+        "x": -0.125,
+        "y": 0.225,
+        "z": 0.125
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 0.45,
+        "depth": 0.05
+      },
+      "connections": [
+        "seat_surface",
+        "brace_back",
+        "brace_left"
+      ],
+      "color": "#0000FF"
+    },
+    {
+      "id": "leg_back_right",
+      "origin": {
+        "x": 0.125,
+        "y": 0.225,
+        "z": 0.125
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 0.45,
+        "depth": 0.05
+      },
+      "connections": [
+        "seat_surface",
+        "brace_back",
+        "brace_right"
+      ],
+      "color": "#0000FF"
+    },
+    {
+      "id": "brace_front",
+      "origin": {
+        "x": 0,
+        "y": 0.3,
+        "z": -0.125
+      },
+      "dimensions": {
+        "width": 0.25,
+        "height": 0.02,
+        "depth": 0.02
+      },
+      "connections": [
+        "leg_front_right",
+        "leg_front_left"
+      ],
+      "color": "#FFFF00"
+    },
+    {
+      "id": "brace_back",
+      "origin": {
+        "x": 0,
+        "y": 0.3,
+        "z": 0.125
+      },
+      "dimensions": {
+        "width": 0.25,
+        "height": 0.02,
+        "depth": 0.02
+      },
+      "connections": [
+        "leg_back_right",
+        "leg_back_left"
+      ],
+      "color": "#FFFF00"
+    },
+    {
+      "id": "brace_right",
+      "origin": {
+        "x": 0.125,
+        "y": 0.3,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.02,
+        "depth": 0.25
+      },
+      "connections": [
+        "leg_front_right",
+        "leg_back_right"
+      ],
+      "color": "#FFFF00"
+    },
+    {
+      "id": "brace_left",
+      "origin": {
+        "x": -0.125,
+        "y": 0.3,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.02,
+        "depth": 0.25
+      },
+      "connections": [
+        "leg_front_left",
+        "leg_back_left"
+      ],
+      "color": "#FFFF00"
+    },
+    {
+      "id": "seat_board_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.2,
+        "height": 0.02,
+        "depth": 0.3
+      },
+      "connections": [],
+      "color": "#DEB887",
+      "status": "discarded"
+    },
+    {
+      "id": "leg_stock_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 0.2,
+        "depth": 0.05
+      },
+      "connections": [],
+      "color": "#DEB887",
+      "status": "discarded"
+    },
+    {
+      "id": "brace_stock_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.2,
+        "depth": 0.02
+      },
+      "connections": [],
+      "color": "#DEB887",
+      "status": "discarded"
+    }
+  ]
+}

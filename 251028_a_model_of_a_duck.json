@@ -1,0 +1,145 @@
+{
+  "objectName": "a model of a duck",
+  "parts": [
+    {
+      "id": "duck_body",
+      "origin": {
+        "x": 0,
+        "y": 0.13,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.06,
+        "depth": 0.5
+      },
+      "connections": [
+        "duck_leg_left",
+        "duck_leg_right",
+        "duck_neck",
+        "duck_tail"
+      ],
+      "color": "#DEB887"
+    },
+    {
+      "id": "duck_leg_left",
+      "origin": {
+        "x": -0.02,
+        "y": 0.05,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.1,
+        "depth": 0.02
+      },
+      "connections": [
+        "duck_body"
+      ],
+      "color": "#FFA500"
+    },
+    {
+      "id": "duck_leg_right",
+      "origin": {
+        "x": 0.02,
+        "y": 0.05,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.1,
+        "depth": 0.02
+      },
+      "connections": [
+        "duck_body"
+      ],
+      "color": "#FFA500"
+    },
+    {
+      "id": "duck_neck",
+      "origin": {
+        "x": 0,
+        "y": 0.26,
+        "z": -0.22
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.2,
+        "depth": 0.02
+      },
+      "connections": [
+        "duck_body",
+        "duck_head"
+      ],
+      "color": "#DEB887"
+    },
+    {
+      "id": "duck_head",
+      "origin": {
+        "x": 0,
+        "y": 0.37,
+        "z": -0.26
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.02,
+        "depth": 0.1
+      },
+      "connections": [
+        "duck_neck",
+        "duck_beak"
+      ],
+      "color": "#DEB887"
+    },
+    {
+      "id": "duck_beak",
+      "origin": {
+        "x": 0,
+        "y": 0.37,
+        "z": -0.335
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.02,
+        "depth": 0.05
+      },
+      "connections": [
+        "duck_head"
+      ],
+      "color": "#FFA500"
+    },
+    {
+      "id": "duck_tail",
+      "origin": {
+        "x": 0,
+        "y": 0.17,
+        "z": 0.21
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.02,
+        "depth": 0.08
+      },
+      "connections": [
+        "duck_body"
+      ],
+      "color": "#DEB887"
+    },
+    {
+      "id": "scrap_rod_offcut",
+      "origin": {
+        "x": 0.5,
+        "y": 0.435,
+        "z": 0.5
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.87,
+        "depth": 0.02
+      },
+      "connections": [],
+      "color": "#8B4513",
+      "status": "discarded"
+    }
+  ]
+}
