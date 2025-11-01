@@ -1,0 +1,213 @@
+{
+  "objectName": "Asymmetric Scrapwood Chair",
+  "parts": [
+    {
+      "id": "seat_surface",
+      "origin": {
+        "x": 0,
+        "y": 0.31,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.7,
+        "height": 0.02,
+        "depth": 0.5
+      },
+      "connections": [
+        "front_left_leg",
+        "front_right_leg",
+        "back_left_leg",
+        "back_right_leg",
+        "backrest_panel"
+      ],
+      "color": "#808080"
+    },
+    {
+      "id": "front_left_leg",
+      "origin": {
+        "x": -0.335,
+        "y": 0.15,
+        "z": 0.22
+      },
+      "dimensions": {
+        "width": 0.03,
+        "height": 0.3,
+        "depth": 0.06
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#36454F"
+    },
+    {
+      "id": "P1_offcut",
+      "origin": {
+        "x": -1,
+        "y": 0.05,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.03,
+        "height": 0.1,
+        "depth": 0.06
+      },
+      "connections": [],
+      "color": "#D3D3D3",
+      "status": "discarded"
+    },
+    {
+      "id": "front_right_leg",
+      "origin": {
+        "x": 0.34,
+        "y": 0.15,
+        "z": 0.24
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.3,
+        "depth": 0.02
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#36454F"
+    },
+    {
+      "id": "back_left_leg",
+      "origin": {
+        "x": -0.34,
+        "y": 0.15,
+        "z": -0.225
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.3,
+        "depth": 0.05
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#36454F"
+    },
+    {
+      "id": "P2_offcut",
+      "origin": {
+        "x": -1,
+        "y": 0.2,
+        "z": -0.1
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.4,
+        "depth": 0.05
+      },
+      "connections": [],
+      "color": "#D3D3D3",
+      "status": "discarded"
+    },
+    {
+      "id": "back_right_leg",
+      "origin": {
+        "x": 0.33,
+        "y": 0.15,
+        "z": -0.23
+      },
+      "dimensions": {
+        "width": 0.04,
+        "height": 0.3,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#36454F"
+    },
+    {
+      "id": "P9_offcut",
+      "origin": {
+        "x": -1,
+        "y": 0.35,
+        "z": 0.1
+      },
+      "dimensions": {
+        "width": 0.04,
+        "height": 0.7,
+        "depth": 0.04
+      },
+      "connections": [],
+      "color": "#D3D3D3",
+      "status": "discarded"
+    },
+    {
+      "id": "backrest_panel",
+      "origin": {
+        "x": 0,
+        "y": 0.57,
+        "z": -0.26
+      },
+      "dimensions": {
+        "width": 1.2,
+        "height": 0.5,
+        "depth": 0.02
+      },
+      "connections": [
+        "seat_surface",
+        "backrest_wing_left",
+        "backrest_wing_right",
+        "backrest_decoration"
+      ],
+      "color": "#A9A9A9"
+    },
+    {
+      "id": "backrest_wing_left",
+      "origin": {
+        "x": -0.75,
+        "y": 0.57,
+        "z": -0.26
+      },
+      "dimensions": {
+        "width": 0.3,
+        "height": 0.5,
+        "depth": 0.02
+      },
+      "connections": [
+        "backrest_panel"
+      ],
+      "color": "#808080"
+    },
+    {
+      "id": "backrest_wing_right",
+      "origin": {
+        "x": 0.75,
+        "y": 0.62,
+        "z": -0.26
+      },
+      "dimensions": {
+        "width": 0.3,
+        "height": 0.6,
+        "depth": 0.02
+      },
+      "connections": [
+        "backrest_panel"
+      ],
+      "color": "#808080"
+    },
+    {
+      "id": "backrest_decoration",
+      "origin": {
+        "x": 0,
+        "y": 0.8,
+        "z": -0.28
+      },
+      "dimensions": {
+        "width": 0.1,
+        "height": 0.2,
+        "depth": 0.02
+      },
+      "connections": [
+        "backrest_panel"
+      ],
+      "color": "#36454F"
+    }
+  ]
+}

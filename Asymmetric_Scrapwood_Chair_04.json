@@ -1,0 +1,113 @@
+{
+  "objectName": "Asymmetrical Scrapwood Chair",
+  "parts": [
+    {
+      "id": "seat_surface",
+      "origin": {
+        "x": 0,
+        "y": 0.41,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.4,
+        "height": 0.02,
+        "depth": 0.5
+      },
+      "connections": [
+        "front_leg_left",
+        "front_leg_right",
+        "back_leg_left_support",
+        "back_leg_right_support"
+      ],
+      "color": "#A9A9A9"
+    },
+    {
+      "id": "front_leg_left",
+      "origin": {
+        "x": -0.19,
+        "y": 0.2,
+        "z": 0.24
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.4,
+        "depth": 0.02
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#808080"
+    },
+    {
+      "id": "front_leg_right",
+      "origin": {
+        "x": 0.19,
+        "y": 0.2,
+        "z": 0.225
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.4,
+        "depth": 0.05
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#D3D3D3"
+    },
+    {
+      "id": "back_leg_left_support",
+      "origin": {
+        "x": -0.19,
+        "y": 0.3,
+        "z": -0.23
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.6,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface",
+        "backrest_slat"
+      ],
+      "color": "#D3D3D3"
+    },
+    {
+      "id": "back_leg_right_support",
+      "origin": {
+        "x": 0.1,
+        "y": 0.3,
+        "z": -0.24
+      },
+      "dimensions": {
+        "width": 0.2,
+        "height": 0.6,
+        "depth": 0.02
+      },
+      "connections": [
+        "seat_surface",
+        "backrest_slat"
+      ],
+      "color": "#808080"
+    },
+    {
+      "id": "backrest_slat",
+      "origin": {
+        "x": -0.045,
+        "y": 0.51,
+        "z": -0.26
+      },
+      "dimensions": {
+        "width": 0.5,
+        "height": 0.2,
+        "depth": 0.02
+      },
+      "connections": [
+        "back_leg_left_support",
+        "back_leg_right_support"
+      ],
+      "color": "#A9A9A9"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "objectName": "Asymmetric Scrapwood Chair",
+  "parts": [
+    {
+      "id": "seat_surface",
+      "origin": {
+        "x": 0,
+        "y": 0.41,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.7,
+        "height": 0.02,
+        "depth": 0.5
+      },
+      "connections": [
+        "leg_front_left",
+        "leg_front_right",
+        "leg_back_left_and_support",
+        "leg_back_right",
+        "backrest_support_right"
+      ],
+      "color": "#DEB887"
+    },
+    {
+      "id": "leg_front_left",
+      "origin": {
+        "x": -0.33,
+        "y": 0.205,
+        "z": 0.23
+      },
+      "dimensions": {
+        "width": 0.04,
+        "height": 0.41,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#8B4513"
+    },
+    {
+      "id": "leg_back_left_and_support",
+      "origin": {
+        "x": -0.33,
+        "y": 0.295,
+        "z": -0.23
+      },
+      "dimensions": {
+        "width": 0.04,
+        "height": 0.59,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface",
+        "backrest_panel"
+      ],
+      "color": "#8B4513"
+    },
+    {
+      "id": "leg_front_right",
+      "origin": {
+        "x": 0.335,
+        "y": 0.2,
+        "z": 0.22
+      },
+      "dimensions": {
+        "width": 0.03,
+        "height": 0.4,
+        "depth": 0.06
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#A0522D"
+    },
+    {
+      "id": "leg_back_right",
+      "origin": {
+        "x": 0.34,
+        "y": 0.205,
+        "z": -0.225
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.41,
+        "depth": 0.05
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#D2691E"
+    },
+    {
+      "id": "backrest_support_right",
+      "origin": {
+        "x": 0.34,
+        "y": 0.555,
+        "z": -0.225
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.29,
+        "depth": 0.05
+      },
+      "connections": [
+        "seat_surface",
+        "backrest_panel"
+      ],
+      "color": "#D2691E"
+    },
+    {
+      "id": "backrest_panel",
+      "origin": {
+        "x": 0,
+        "y": 0.56,
+        "z": -0.27
+      },
+      "dimensions": {
+        "width": 0.6,
+        "height": 0.3,
+        "depth": 0.02
+      },
+      "connections": [
+        "leg_back_left_and_support",
+        "backrest_support_right"
+      ],
+      "color": "#CD853F"
+    }
+  ]
+}

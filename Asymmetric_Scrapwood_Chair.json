@@ -1,0 +1,147 @@
+{
+  "objectName": "Asymmetric Scrapwood Chair",
+  "parts": [
+    {
+      "id": "part_main_support_L",
+      "origin": {
+        "x": -0.36,
+        "y": 0.6,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 1.2,
+        "depth": 0.5
+      },
+      "connections": [
+        "part_seat",
+        "part_fin",
+        "part_side_table"
+      ],
+      "color": "#8B4513"
+    },
+    {
+      "id": "part_seat",
+      "origin": {
+        "x": 0,
+        "y": 0.39,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.7,
+        "height": 0.02,
+        "depth": 0.5
+      },
+      "connections": [
+        "part_main_support_L",
+        "part_leg_FR",
+        "part_leg_BR"
+      ],
+      "color": "#A0522D"
+    },
+    {
+      "id": "part_leg_FR",
+      "origin": {
+        "x": 0.335,
+        "y": 0.2,
+        "z": 0.22
+      },
+      "dimensions": {
+        "width": 0.03,
+        "height": 0.4,
+        "depth": 0.06
+      },
+      "connections": [
+        "part_seat",
+        "part_brace_shelf"
+      ],
+      "color": "#D2691E"
+    },
+    {
+      "id": "part_leg_BR",
+      "origin": {
+        "x": 0.335,
+        "y": 0.2,
+        "z": -0.225
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.4,
+        "depth": 0.05
+      },
+      "connections": [
+        "part_seat",
+        "part_brace_shelf"
+      ],
+      "color": "#CD853F"
+    },
+    {
+      "id": "piece_2_offcut",
+      "origin": {
+        "x": 10,
+        "y": 10,
+        "z": 10
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.3,
+        "depth": 0.05
+      },
+      "connections": [],
+      "color": "#DEB887",
+      "status": "discarded"
+    },
+    {
+      "id": "part_brace_shelf",
+      "origin": {
+        "x": 0.335,
+        "y": 0.1,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.3,
+        "height": 0.02,
+        "depth": 0.6
+      },
+      "connections": [
+        "part_leg_FR",
+        "part_leg_BR"
+      ],
+      "color": "#A0522D"
+    },
+    {
+      "id": "part_fin",
+      "origin": {
+        "x": -0.36,
+        "y": 1.35,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.3,
+        "depth": 0.02
+      },
+      "connections": [
+        "part_main_support_L"
+      ],
+      "color": "#DC143C"
+    },
+    {
+      "id": "part_side_table",
+      "origin": {
+        "x": -0.36,
+        "y": 0.6,
+        "z": 0.35
+      },
+      "dimensions": {
+        "width": 0.1,
+        "height": 0.02,
+        "depth": 0.2
+      },
+      "connections": [
+        "part_main_support_L"
+      ],
+      "color": "#DEB887"
+    }
+  ]
+}

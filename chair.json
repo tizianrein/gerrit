@@ -1,0 +1,109 @@
+{
+  "objectName": "chair",
+  "parts": [
+    {
+      "id": "seat_surface",
+      "origin": {
+        "x": 0,
+        "y": 0.41,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.5,
+        "height": 0.02,
+        "depth": 0.5
+      },
+      "connections": [
+        "leg_front_left",
+        "leg_front_right",
+        "back_support_leg"
+      ],
+      "color": "#808080"
+    },
+    {
+      "id": "seat_surface_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.5,
+        "height": 0.02,
+        "depth": 0.7
+      },
+      "connections": [],
+      "color": "#DEB887",
+      "status": "discarded"
+    },
+    {
+      "id": "leg_front_left",
+      "origin": {
+        "x": -0.24,
+        "y": 0.2,
+        "z": 0.225
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.4,
+        "depth": 0.05
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#A9A9A9"
+    },
+    {
+      "id": "leg_front_right",
+      "origin": {
+        "x": 0.24,
+        "y": 0.2,
+        "z": 0.24
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.4,
+        "depth": 0.02
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#D3D3D3"
+    },
+    {
+      "id": "back_support_leg",
+      "origin": {
+        "x": 0,
+        "y": 0.3,
+        "z": -0.23
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.6,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface",
+        "backrest_panel"
+      ],
+      "color": "#696969"
+    },
+    {
+      "id": "backrest_panel",
+      "origin": {
+        "x": 0,
+        "y": 0.5,
+        "z": -0.35
+      },
+      "dimensions": {
+        "width": 0.7,
+        "height": 0.02,
+        "depth": 0.2
+      },
+      "connections": [
+        "back_support_leg"
+      ],
+      "color": "#808080"
+    }
+  ]
+}
