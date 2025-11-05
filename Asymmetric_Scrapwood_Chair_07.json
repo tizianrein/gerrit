@@ -1,0 +1,195 @@
+{
+  "objectName": "asymmetric scrapwood chair",
+  "parts": [
+    {
+      "id": "seat_surface",
+      "origin": {
+        "x": 0,
+        "y": 0.41,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.4,
+        "height": 0.02,
+        "depth": 0.3
+      },
+      "connections": [
+        "leg_back_left",
+        "leg_back_right",
+        "leg_front_left",
+        "leg_front_right",
+        "backrest_panel",
+        "armrest_support"
+      ],
+      "color": "#CCCCCC"
+    },
+    {
+      "id": "leg_back_left",
+      "origin": {
+        "x": -0.19,
+        "y": 0.2,
+        "z": -0.13
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.4,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#333333"
+    },
+    {
+      "id": "leg_back_right",
+      "origin": {
+        "x": 0.19,
+        "y": 0.2,
+        "z": -0.13
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.4,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#333333"
+    },
+    {
+      "id": "leg_front_left",
+      "origin": {
+        "x": -0.19,
+        "y": 0.2,
+        "z": 0.14
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.4,
+        "depth": 0.02
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#444444"
+    },
+    {
+      "id": "leg_front_right",
+      "origin": {
+        "x": 0.17,
+        "y": 0.2,
+        "z": 0.14
+      },
+      "dimensions": {
+        "width": 0.06,
+        "height": 0.4,
+        "depth": 0.02
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#555555"
+    },
+    {
+      "id": "backrest_panel",
+      "origin": {
+        "x": 0,
+        "y": 0.495,
+        "z": -0.16
+      },
+      "dimensions": {
+        "width": 0.5,
+        "height": 0.15,
+        "depth": 0.02
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#AAAAAA"
+    },
+    {
+      "id": "armrest_support",
+      "origin": {
+        "x": 0.175,
+        "y": 0.52,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 0.2,
+        "depth": 0.05
+      },
+      "connections": [
+        "seat_surface",
+        "armrest_top"
+      ],
+      "color": "#777777"
+    },
+    {
+      "id": "armrest_top",
+      "origin": {
+        "x": 0.175,
+        "y": 0.63,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.06,
+        "height": 0.02,
+        "depth": 0.3
+      },
+      "connections": [
+        "armrest_support"
+      ],
+      "color": "#EEEEEE"
+    },
+    {
+      "id": "inv_1_offcut",
+      "origin": {
+        "x": 0,
+        "y": -1,
+        "z": -0.5
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.1,
+        "depth": 0.02
+      },
+      "connections": [],
+      "color": "#111111",
+      "status": "discarded"
+    },
+    {
+      "id": "inv_3_offcut",
+      "origin": {
+        "x": 0.1,
+        "y": -1,
+        "z": -0.5
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 0.1,
+        "depth": 0.05
+      },
+      "connections": [],
+      "color": "#111111",
+      "status": "discarded"
+    },
+    {
+      "id": "unused_inv_4_board",
+      "origin": {
+        "x": -0.2,
+        "y": -1,
+        "z": -0.5
+      },
+      "dimensions": {
+        "width": 0.2,
+        "height": 0.02,
+        "depth": 0.3
+      },
+      "connections": [],
+      "color": "#111111",
+      "status": "discarded"
+    }
+  ]
+}

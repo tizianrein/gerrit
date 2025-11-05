@@ -1,0 +1,161 @@
+{
+  "objectName": "asymmetric scrapwood chair",
+  "parts": [
+    {
+      "id": "seat_surface",
+      "origin": {
+        "x": 0,
+        "y": 0.41,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.3,
+        "height": 0.02,
+        "depth": 0.4
+      },
+      "connections": [
+        "back_upright",
+        "front_leg_left",
+        "front_leg_right",
+        "armrest_support"
+      ],
+      "color": "#CCCCCC"
+    },
+    {
+      "id": "back_upright",
+      "origin": {
+        "x": 0,
+        "y": 0.4,
+        "z": -0.18
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.8,
+        "depth": 0.04
+      },
+      "connections": [
+        "seat_surface",
+        "backrest_panel"
+      ],
+      "color": "#888888"
+    },
+    {
+      "id": "front_leg_left",
+      "origin": {
+        "x": -0.12,
+        "y": 0.2,
+        "z": 0.19
+      },
+      "dimensions": {
+        "width": 0.06,
+        "height": 0.4,
+        "depth": 0.02
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#888888"
+    },
+    {
+      "id": "piece_7_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.06,
+        "height": 0.3,
+        "depth": 0.02
+      },
+      "connections": [],
+      "color": "#222222",
+      "status": "discarded"
+    },
+    {
+      "id": "front_leg_right",
+      "origin": {
+        "x": 0.14,
+        "y": 0.2,
+        "z": 0.19
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.4,
+        "depth": 0.02
+      },
+      "connections": [
+        "seat_surface"
+      ],
+      "color": "#888888"
+    },
+    {
+      "id": "piece_1_offcut",
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.02,
+        "height": 0.1,
+        "depth": 0.02
+      },
+      "connections": [],
+      "color": "#222222",
+      "status": "discarded"
+    },
+    {
+      "id": "backrest_panel",
+      "origin": {
+        "x": 0,
+        "y": 0.62,
+        "z": -0.21
+      },
+      "dimensions": {
+        "width": 0.2,
+        "height": 0.3,
+        "depth": 0.02
+      },
+      "connections": [
+        "back_upright"
+      ],
+      "color": "#EEEEEE"
+    },
+    {
+      "id": "armrest_support",
+      "origin": {
+        "x": 0.125,
+        "y": 0.57,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.05,
+        "height": 0.3,
+        "depth": 0.05
+      },
+      "connections": [
+        "seat_surface",
+        "armrest_surface"
+      ],
+      "color": "#444444"
+    },
+    {
+      "id": "armrest_surface",
+      "origin": {
+        "x": 0.125,
+        "y": 0.73,
+        "z": 0
+      },
+      "dimensions": {
+        "width": 0.15,
+        "height": 0.02,
+        "depth": 0.5
+      },
+      "connections": [
+        "armrest_support"
+      ],
+      "color": "#666666"
+    }
+  ]
+}
